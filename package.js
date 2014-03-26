@@ -3,7 +3,7 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-  api.use(['handlebars', 'underscore'], 'client');
+  api.use(['handlebars', 'underscore', 'ui'], 'client');
 
   api.export && api.export('I18nDummy');
   api.export && api.export('__');
